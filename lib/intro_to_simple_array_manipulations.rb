@@ -1,15 +1,9 @@
 def using_push(array, string)
-  [("colors_in_the_rainbow")]
-  colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
-  next_color = "violet"
-  array.push(next_color)
+  array.push(string)
 end
 
 def using_unshift(array, string)
-  [("bouroughs_in_nyc")]
-  animals = ["Brooklyn", "Queens", "Manhatten", ""]
-  new_neighborhood = "Staten Island"
-  array.unshift(new_neighborhood)
+  array.unshift(string)
 end
 
 def using_pop(array)
@@ -28,21 +22,16 @@ def shift_with_args(array)
   array.shift(2)
 end  
 
-def using_concat(array, array2)
-  my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
-  more_favs = ["sports cars", "flatiron school"]
-  all_my_favs = array.concat(array2)
+def using_concat(array, element)
+  all_my_favs = array.concat(element)
 end
 
 def using_insert(array, element)
-  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-  another_language = "Python"
   new_array = array.insert(4, element)
   
 end
 
 def using_uniq(array)
-  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
   new_array = array.uniq
 end
 
